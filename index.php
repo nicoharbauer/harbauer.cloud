@@ -273,7 +273,7 @@
         <p>© <span>Copyright</span> <strong class="px-1 sitename">Nico Harbauer</strong> <span>Alle Rechte vorbehalten</span></p>
       </div>
       <div class="credits">
-        <a href="./impressum">Impressum</a>
+        <a href="https://sn-datacom.de/impressum">Impressum</a>
       </div>
     </div>
 
