@@ -93,9 +93,11 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Über mich</h2>
-        <p>Ich bin <b>Nico Harbauer</b>, technikbegeistert, Feuerwehrmann und Geschäftsführer der SN-TUX UG (haftungsbeschränkt) i. G.
-IT, Server und Netzwerke sind genau mein Ding – ich mag es, wenn Technik einfach funktioniert und man mit cleveren Lösungen wirklich etwas bewegt.
-Ich arbeite gerne praktisch, probiere Dinge aus und lerne ständig dazu. Egal ob im Rechenzentrum, am PC oder bei der Feuerwehr – Teamarbeit, Zuverlässigkeit und Technik gehören für mich einfach zusammen.</p>
+        <p>
+          Ich bin <b>Nico Harbauer</b>, technikbegeistert, Feuerwehrmann und Geschäftsführer der SN-DATACOM UG (haftungsbeschränkt) i. G.
+          IT, Server und Netzwerke sind genau mein Ding – ich mag es, wenn Technik einfach funktioniert und man mit cleveren Lösungen wirklich etwas bewegt.
+          Ich arbeite gerne praktisch, probiere Dinge aus und lerne ständig dazu. Egal ob im Rechenzentrum, am PC oder bei der Feuerwehr – Teamarbeit, Zuverlässigkeit und Technik gehören für mich einfach zusammen.
+        </p>
       </div><!-- End Section Title -->
     </section><!-- /About Section -->
 
@@ -104,41 +106,7 @@ Ich arbeite gerne praktisch, probiere Dinge aus und lerne ständig dazu. Egal ob
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="row gy-4">
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item">
-              <i class="bi bi-boxes"></i>
-              <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>allgemeine aktive Projekte</strong></p>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item">
-              <i class="bi bi-code-slash"></i>
-              <span data-purecounter-start="0" data-purecounter-end="50000" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>ca. Zeilen geschriebener Code</strong></p>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item">
-              <i class="bi bi-hdd-rack-fill"></i>
-              <span data-purecounter-start="0" data-purecounter-end="60" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>ca. Stunden im Rechenzentrum dieses Jahr</strong></p>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item">
-              <i class="bi bi-globe2"></i>
-              <span data-purecounter-start="0" data-purecounter-end="20" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Registrierte Domains</strong></p>
-            </div>
-          </div><!-- End Stats Item -->
-
-        </div>
+ 
 
       </div>
 
