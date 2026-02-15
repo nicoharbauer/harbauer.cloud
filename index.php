@@ -47,6 +47,8 @@
       <ul>
         <li><a href="/#hero" class="active"><i class="bi bi-house navicon"></i>Startseite</a></li>
         <li><a href="/#about"><i class="bi bi-person navicon"></i> Über mich</a></li>
+        <li><a href="/#skills"><i class="bi bi-graph-up navicon"></i> Kenntnisse</a></li>
+        <li><a href="/#certifications"><i class="bi bi-trophy-fill navicon"></i> Zertifizierungen</a></li>
         <li><a href="/#contact"><i class="bi bi-envelope navicon"></i> Kontakt</a></li>
 
         <!--
@@ -181,20 +183,167 @@
 
     </section><!-- /Skills Section -->
 
-    <!-- Contact Section -->
     <section id="contact" class="contact section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
+        <h2>Zertifizierungen</h2>
+        <p>Hier sieht man alle meine Zertifizierungen auf einen Blick.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row">
+          <div class="col-3 mb-3">
+            <div class="card">
+              <div class="card-body">
+                <center>
+                  <img style="margin-bottom: 0.8rem" src="/zertifikate/badges/DSA_2023_BADGE.png" width="150" alt=""><br>
+                  <small style="font-size: 0.8rem;">
+                    Ausgestellt am <b>30.05.2023</b>
+                    <br>
+                    von <img width="85" src="https://static.funnelcockpit.com/upload/DkHSkJJymkybRB5m5/1c638e8845cc5b388f47499796eaa6a9.jpg" alt="">
+                    <br>
+                    Gültig bis <b>unbefristet</b>
+                  </small>
+                </center>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 mb-3">
+            <div class="card">
+              <div class="card-body">
+                <center>
+                  <img style="margin-bottom: 0.8rem" src="/zertifikate/badges/ISB_2023_BADGE.png" width="150" alt=""><br>
+                  <small style="font-size: 0.8rem;">
+                    Ausgestellt am <b>30.05.2023</b>
+                    <br>
+                    von <img width="85" src="https://static.funnelcockpit.com/upload/DkHSkJJymkybRB5m5/1c638e8845cc5b388f47499796eaa6a9.jpg" alt="">
+                    <br>
+                    Gültig bis <b>unbefristet</b>
+                  </small>
+                </center>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 mb-3">
+            <div class="card">
+              <div class="card-body">
+                <center>
+                  <img style="margin-bottom: 0.8rem" src="/zertifikate/badges/DSB_2023_BADGE.png" width="150" alt=""><br>
+                  <small style="font-size: 0.8rem;">
+                    Ausgestellt am <b>30.05.2023</b>
+                    <br>
+                    von <img width="85" src="https://static.funnelcockpit.com/upload/DkHSkJJymkybRB5m5/1c638e8845cc5b388f47499796eaa6a9.jpg" alt="">
+                    <br>
+                    Gültig bis <b>unbefristet</b>
+                  </small>
+                </center>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 mb-3">
+            <div class="card">
+              <div class="card-body">
+                <center>
+                  <img style="margin-bottom: 0.8rem" src="/zertifikate/badges/EXTDSB_2023_BADGE.png" width="150" alt=""><br>
+                  <small style="font-size: 0.8rem;">
+                    Ausgestellt am <b>30.05.2023</b>
+                    <br>
+                    von <img width="85" src="https://static.funnelcockpit.com/upload/DkHSkJJymkybRB5m5/1c638e8845cc5b388f47499796eaa6a9.jpg" alt="">
+                    <br>
+                    Gültig bis <b>unbefristet</b>
+                  </small>
+                </center>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 mb-3">
+            <div class="card">
+              <div class="card-body">
+                <center>
+                  <img style="margin-bottom: 0.8rem" src="https://images.credly.com/size/680x680/images/c3be646d-e678-4bf5-ab7d-c35459f4a954/Acclaim_Plesk_Badge_Professional_transp.png" width="150" alt=""><br>
+                  <small style="font-size: 0.8rem;">
+                    Ausgestellt am <b>30.03.2024</b>
+                    <br>
+                    von <img width="52" style="margin-left: 0.3rem" src="https://birsunucum.com/img/plesk.png" alt="">
+                    <br>
+                    Gültig bis <b>30.03.2026</b>
+                  </small>
+                </center>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 mb-3">
+            <div class="card">
+              <div class="card-body">
+                <center>
+                  <img style="margin-bottom: 0.8rem" src="https://images.credly.com/size/680x680/images/5d5ac32b-d239-42b8-9665-8a921dc3ab47/image.png" width="150" alt=""><br>
+                  <small style="font-size: 0.8rem;">
+                    Ausgestellt am <b>01.04.2024</b>
+                    <br>
+                    von <img width="40" style="margin-left: 0.3rem" src="https://cdn1.vogel.de/n43iHHOGl7_LWQ7xwK3noKloc2o=/fit-in/800x0/p7i.vogel.de/wcms/07/6e/076e36aad6406a9a94abf605b6fa4d49/0123944688v2.jpeg" alt="">
+                    <br>
+                    Gültig bis <b>unbefristet</b>
+                  </small>
+                </center>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 mb-3">
+            <div class="card">
+              <div class="card-body">
+                <center>
+                  <img style="margin-bottom: 0.8rem" src="https://images.credly.com/size/680x680/images/0ca5f542-fb5e-4a22-9b7a-c1a1ce4c3db7/EndpointSecurity.png" width="150" alt=""><br>
+                  <small style="font-size: 0.8rem;">
+                    Ausgestellt am <b>01.04.2024</b>
+                    <br>
+                    von <img width="40" style="margin-left: 0.3rem" src="https://cdn1.vogel.de/n43iHHOGl7_LWQ7xwK3noKloc2o=/fit-in/800x0/p7i.vogel.de/wcms/07/6e/076e36aad6406a9a94abf605b6fa4d49/0123944688v2.jpeg" alt="">
+                    <br>
+                    Gültig bis <b>unbefristet</b>
+                  </small>
+                </center>
+              </div>
+            </div>
+          </div>
+      </div>
+      <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        PDF-Nachweise öffnen
+      </button>
+      <a href="https://www.credly.com/users/nico-harbauer" class="btn btn-light">
+        Credly-Nachweise öffnen
+      </a>
+    </section>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">PDF-Nachweise</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <a href="/zertifikate/Zertifikat_Datenschutz_Auditor_2023.pdf" class="text-dark"><i class="bi bi-file-earmark-pdf-fill text-danger"></i> Zertifikat_Datenschutz_Auditor_2023.pdf</a><br>
+        <a href="/zertifikate/Zertifikat_Datenschutzbeauftragter_2023.pdf" class="text-dark"><i class="bi bi-file-earmark-pdf-fill text-danger"></i> Zertifikat_Datenschutzbeauftragter_2023.pdf</a><br>
+        <a href="/zertifikate/Zertifikat_IT-Sicherheitsbeauftragter_2023.pdf" class="text-dark"><i class="bi bi-file-earmark-pdf-fill text-danger"></i> Zertifikat_IT-Sicherheitsbeauftragter_2023.pdf</a><br>
+        <a href="/zertifikate/Zertifikat_Externer_Datenschutzbeauftragter_2023.pdf" class="text-dark"><i class="bi bi-file-earmark-pdf-fill text-danger"></i> Zertifikat_Externer_Datenschutzbeauftragter_2023.pdf</a><br>
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- Contact Section -->
+    <section id="contact" class="contact section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
         <h2>Kontakt</h2>
-        <p>Hier finden Sie meine Kontaktdaten – ich freue mich auf Ihre Nachricht.</p>
+        <p>Hier findest du meine Kontaktdaten – ich freue mich auf deine Nachricht.</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="row gy-4">
 
-          <div class="col-lg-5">
+          <div class="col-lg-12">
 
             <div class="info-wrap pt-5">
               <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
@@ -222,48 +371,12 @@
             </div>
           </div>
 
-          <div class="col-lg-7" style="display:none">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
-              <div class="row gy-4">
-
-                <div class="col-md-6">
-                  <label for="name-field" class="pb-2">Your Name</label>
-                  <input type="text" name="name" id="name-field" class="form-control" required="">
-                </div>
-
-                <div class="col-md-6">
-                  <label for="email-field" class="pb-2">Your Email</label>
-                  <input type="email" class="form-control" name="email" id="email-field" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <label for="subject-field" class="pb-2">Subject</label>
-                  <input type="text" class="form-control" name="subject" id="subject-field" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <label for="message-field" class="pb-2">Message</label>
-                  <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
-                </div>
-
-                <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-
-                  <button type="submit">Send Message</button>
-                </div>
-
-              </div>
-            </form>
-          </div><!-- End Contact Form -->
-
         </div>
 
       </div>
 
     </section><!-- /Contact Section -->
-
+  
   </main>
 
   <footer id="footer" class="footer position-relative light-background">
