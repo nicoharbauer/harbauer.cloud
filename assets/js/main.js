@@ -212,17 +212,24 @@
   function navmenuScrollspy() {
     let activeLink = null;
     let activationOffset = Math.min(200, window.innerHeight / 3);
+    let sectionLinks = [];
 
     navmenulinks.forEach(navmenulink => {
       if (!navmenulink.hash) return;
       let section = document.querySelector(navmenulink.hash);
       if (!section) return;
 
+      sectionLinks.push(navmenulink);
       let sectionBounds = section.getBoundingClientRect();
       if (sectionBounds.top <= activationOffset && sectionBounds.bottom > 0) {
         activeLink = navmenulink;
       }
     })
+
+    let atPageBottom = window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 2;
+    if (atPageBottom && sectionLinks.length) {
+      activeLink = sectionLinks[sectionLinks.length - 1];
+    }
 
     document.querySelectorAll('.navmenu a.active').forEach(link => link.classList.remove('active'));
     if (activeLink) activeLink.classList.add('active');
