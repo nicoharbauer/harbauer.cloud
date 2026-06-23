@@ -211,7 +211,7 @@
 
   function navmenuScrollspy() {
     let activeLink = null;
-    let activeVisibleHeight = 0;
+    let activationOffset = Math.min(200, window.innerHeight / 3);
 
     navmenulinks.forEach(navmenulink => {
       if (!navmenulink.hash) return;
@@ -219,12 +219,7 @@
       if (!section) return;
 
       let sectionBounds = section.getBoundingClientRect();
-      let visibleTop = Math.max(sectionBounds.top, 0);
-      let visibleBottom = Math.min(sectionBounds.bottom, window.innerHeight);
-      let visibleHeight = Math.max(visibleBottom - visibleTop, 0);
-
-      if (visibleHeight > activeVisibleHeight) {
-        activeVisibleHeight = visibleHeight;
+      if (sectionBounds.top <= activationOffset && sectionBounds.bottom > 0) {
         activeLink = navmenulink;
       }
     })
