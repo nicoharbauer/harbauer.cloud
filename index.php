@@ -183,7 +183,7 @@
 
     </section><!-- /Skills Section -->
 
-    <section id="contact" class="contact section">
+    <section id="certifications" class="contact section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
