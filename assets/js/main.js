@@ -210,18 +210,27 @@
   let navmenulinks = document.querySelectorAll('.navmenu a');
 
   function navmenuScrollspy() {
+    let activeLink = null;
+    let activeVisibleHeight = 0;
+
     navmenulinks.forEach(navmenulink => {
       if (!navmenulink.hash) return;
       let section = document.querySelector(navmenulink.hash);
       if (!section) return;
-      let position = window.scrollY + 200;
-      if (position >= section.offsetTop && position <= (section.offsetTop + section.offsetHeight)) {
-        document.querySelectorAll('.navmenu a.active').forEach(link => link.classList.remove('active'));
-        navmenulink.classList.add('active');
-      } else {
-        navmenulink.classList.remove('active');
+
+      let sectionBounds = section.getBoundingClientRect();
+      let visibleTop = Math.max(sectionBounds.top, 0);
+      let visibleBottom = Math.min(sectionBounds.bottom, window.innerHeight);
+      let visibleHeight = Math.max(visibleBottom - visibleTop, 0);
+
+      if (visibleHeight > activeVisibleHeight) {
+        activeVisibleHeight = visibleHeight;
+        activeLink = navmenulink;
       }
     })
+
+    document.querySelectorAll('.navmenu a.active').forEach(link => link.classList.remove('active'));
+    if (activeLink) activeLink.classList.add('active');
   }
   window.addEventListener('load', navmenuScrollspy);
   document.addEventListener('scroll', navmenuScrollspy);
